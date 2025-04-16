@@ -1,0 +1,52 @@
+# Sensitive Data
+credentials.json
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/
+
+# Build
+dist/
+build/
+
+# Local Development
+temp/
+*.csv
+*.xlsx
+*.gsheet
+
+# Test Artifacts
+coverage.xml
+htmlcov/
+
+# Virtual Environment
+.env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
